@@ -1,0 +1,93 @@
+.searchBar{
+    width: 690px!important;
+    border-radius: 10px!important;
+    height: 50px!important;
+}
+.searchBar:focus{
+    border-color: #096947!important;
+    box-shadow: 0 0 0 0.25rem rgba(62, 82, 75, 0.32) !important;
+}
+.searchContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    font-family: "Century Gothic", sans-serif;
+}
+
+.searchButton{
+    background-color: #fc5603!important;
+    color: white!important;
+    margin-left: 10px!important;
+    border-radius: 10px!important;
+    transition-delay: 0.3ms;
+}
+.searchButton:hover{
+    background-color: #e14f04!important;
+}
+.searchedAds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+}
+
+.tagButton {
+    border: none !important;
+    font-weight: bold!important;
+
+}
+.searchTags{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.tagContainer{
+    font-family: "Century Gothic", sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-top: 8px;
+    height: 30px;
+}
+
+.rangeSlider{
+    width: 500px!important;
+}
+
+.rangeContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 800px;
+    justify-content: flex-start;
+}
+
+.rangeSlider .range-slider__range {
+    background: #fc5603!important;
+    transition: height .3s!important;
+}
+
+.rangeSlider .range-slider__thumb {
+    background: #fc5603!important;
+    transition: transform .3s!important;
+}
+.salary{
+    padding: 0 10px;
+    width: 120px;
+}
+
+.salaryContainer{
+    font-family: "Century Gothic", sans-serif;
+    width: 800px;
+    margin-top: 8px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+.mappedAd{
+    display: flex;
+    justify-content: center;
+}
+
+

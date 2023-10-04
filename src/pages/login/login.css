@@ -1,0 +1,38 @@
+.logInContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.formContainer{
+    width: 100%;
+    max-width: 500px;
+}
+.formCard{
+    border:none;
+    background-color:#096947 !important;
+    color:white !important;
+    border-radius: 40px !important;
+}
+.title{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.submitContainer{
+    display: flex;
+    justify-content: center;
+}
+.submitButton{
+    margin-top: 40px!important;
+    width: 70%!important;
+    height: 50px!important;
+    align-self: center!important;
+    border-radius: 40px !important;
+}
+.input:focus{
+    box-shadow: 0 0 0 0.25rem rgba(62,82,75,.5)!important;
+    border-color: #99ada6!important;
+}
+.loginText{
+    text-align: center;
+}

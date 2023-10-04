@@ -1,0 +1,69 @@
+.adPageContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.adPageDate{
+    color: rgba(71, 77, 84, 0.85);
+}
+.adPageTitle{
+    font-size: 52px;
+    font-weight: bold;
+}
+.adPageTagsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.adPageTags{
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #fc5603;
+
+}
+.adPageDescription{
+    text-align: justify;
+}
+.icon{
+    margin-right: 15px;
+    font-size: 35px;
+
+}
+.adPageData{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.adPageLocation{
+    text-transform: capitalize;
+}
+.applyButton{
+    position: absolute;
+    width: 110px;
+    top: 15%;
+    right: 50px;
+}
+.applyButton:hover{
+    transform: scale(0.9);
+    transition-delay: 0.3ms;
+}
+.applyButtonImg{
+    width: 100%;
+}
+.alertContainer{
+    position: absolute!important;
+    top: 80px;
+    left: 40%;
+    width: 500px;
+}
+
+.alertExit{
+    position: absolute!important;
+}

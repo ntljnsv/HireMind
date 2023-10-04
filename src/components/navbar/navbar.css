@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #096947!important;
+    height: 75px!important;
+    font-family: "Century Gothic", sans-serif;
+}
+.brandName{
+    font-size: 35px!important;
+    padding-right: 20px!important;
+}
+.link{
+    text-decoration: none;
+    font-size: 20px!important;
+}
+.errorAlert{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    top:12%;
+    right:45%
+}
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+}
+.logo{
+    width: 100%;
+}
+.links{
+    margin-left: 40px;
+}
+.siteLink{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration: none;
+}

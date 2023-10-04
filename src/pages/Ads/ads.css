@@ -1,0 +1,127 @@
+.adsContainer{
+    margin: 30px 120px;
+    display: flex;
+    flex-direction: column;
+}
+.adsTitle{
+    font-size: 40px;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+}
+.addAdButton{
+    background-color: #fc5603!important;
+    color: white!important;
+    font-size: 18px!important;
+    margin: 30px 0;
+    width: 20%;
+    align-self: center;
+    transition-delay: 0.3ms;
+}
+.addAdButton:hover{
+    background-color: #e14f04!important;
+}
+
+.addAd{
+    background-color: #096947!important;
+    color: white!important;
+    padding: 15px;
+    top: 16%;
+    width: 900px;
+    height: fit-content!important;
+    z-index: 3!important;
+}
+
+.submitAd{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    grid-column-start:1 ;
+    grid-column-end: 3;
+}
+
+.additionalData{
+    font-size: 15px;
+    font-weight: bold;
+}
+.additionalData span{
+    font-weight: normal;
+}
+
+.inputAd:focus{
+    box-shadow: 0 0 0 0.25rem rgba(62,82,75,.5)!important;
+    border-color: #99ada6!important;
+}
+
+.overlay{
+    background-color: rgba(62,82,75,.5)!important;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999!important;
+    display: flex;
+    justify-content: center;
+}
+
+.exit{
+    background: none;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 1px;
+    right: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.exit:hover{
+    color: #fc5603;
+    transform: scale(0.9);
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tag{
+    width: 24% !important;
+}
+
+.option{
+    margin-top: 2px;
+}
+.option:checked{
+    background-color: #fc5603!important;
+    color: white!important;
+    border-radius: 5px;
+    box-shadow: none!important;
+}
+
+.form{
+    display: grid;
+    grid-template: "a b";
+    grid-gap: 8px;
+}
+
+.inputAd:focus{
+    box-shadow: 0 0 0 0.25rem rgba(62,82,75,.5)!important;
+    border-color: #99ada6!important;
+}
+
+.inputAd{
+    width: 430px!important;
+    color: black!important;
+}
+
+
+.alertContainer{
+    margin-top: 15px;
+    position: relative;
+}
+.alertContainer button{
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    color: #212529;
+    font-size: 18px;
+}

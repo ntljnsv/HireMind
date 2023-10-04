@@ -1,0 +1,16 @@
+.applicationsContainer{
+    margin: 30px 120px;
+    display: flex;
+    flex-direction: column;
+}
+.applicationsTitle{
+    font-size: 40px;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+}
+.noAds{
+    font-size: 20px;
+    font-family: "Century Gothic", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="152e9b3d-22b2-4d84-a712-19c87368b609" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SimXB0hrUFu7jrHYthrSkuS7Bt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.JavaScript&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\jobPortal\job-portal\src\pages\Forum" />
+      <recent name="C:\Users\DELL\Desktop\jobPortal\job-portal\src\pages\Forum\components" />
+      <recent name="C:\Users\DELL\Desktop\jobPortal\job-portal\src\components" />
+      <recent name="C:\Users\DELL\Desktop\jobPortal\job-portal\src\pages\CompanyRatings" />
+      <recent name="C:\Users\DELL\Desktop\jobPortal\job-portal\src\context" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="152e9b3d-22b2-4d84-a712-19c87368b609" name="Changes" comment="" />
+      <created>1689637831035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689637831035</updated>
+      <workItem from="1689637835442" duration="993000" />
+      <workItem from="1689711111431" duration="14621000" />
+      <workItem from="1689772416836" duration="9994000" />
+      <workItem from="1689802979495" duration="9205000" />
+      <workItem from="1689880333255" duration="9733000" />
+      <workItem from="1689892354255" duration="5441000" />
+      <workItem from="1690054165128" duration="19259000" />
+      <workItem from="1690208801435" duration="28826000" />
+      <workItem from="1690308797885" duration="21100000" />
+      <workItem from="1690399720684" duration="17432000" />
+      <workItem from="1690570402299" duration="15567000" />
+      <workItem from="1690658565574" duration="698000" />
+      <workItem from="1690665474593" duration="7464000" />
+      <workItem from="1690747210831" duration="4265000" />
+      <workItem from="1690918168846" duration="10301000" />
+      <workItem from="1691088973394" duration="13489000" />
+      <workItem from="1691176031965" duration="8774000" />
+      <workItem from="1691613750601" duration="8187000" />
+      <workItem from="1691785324041" duration="8213000" />
+      <workItem from="1691962604362" duration="7537000" />
+      <workItem from="1692046005293" duration="10207000" />
+      <workItem from="1692746536893" duration="8174000" />
+      <workItem from="1692799809463" duration="1972000" />
+      <workItem from="1692830121502" duration="8548000" />
+      <workItem from="1693164234624" duration="14495000" />
+      <workItem from="1693266152898" duration="739000" />
+      <workItem from="1693347170131" duration="9536000" />
+      <workItem from="1693686856678" duration="5700000" />
+      <workItem from="1693775740974" duration="971000" />
+      <workItem from="1693778701830" duration="6518000" />
+      <workItem from="1693863733917" duration="15278000" />
+      <workItem from="1693959291070" duration="775000" />
+      <workItem from="1694125066792" duration="1189000" />
+      <workItem from="1694214684991" duration="583000" />
+      <workItem from="1694292794797" duration="10320000" />
+      <workItem from="1694375907041" duration="594000" />
+      <workItem from="1694471211396" duration="4289000" />
+      <workItem from="1694561348359" duration="6384000" />
+      <workItem from="1694642943592" duration="8951000" />
+      <workItem from="1694736555991" duration="7430000" />
+      <workItem from="1694812380634" duration="4213000" />
+      <workItem from="1694909465785" duration="3610000" />
+      <workItem from="1695072655912" duration="8924000" />
+      <workItem from="1695249535296" duration="7825000" />
+      <workItem from="1695325649164" duration="8153000" />
+      <workItem from="1695503931310" duration="10513000" />
+      <workItem from="1695590767231" duration="3405000" />
+      <workItem from="1695775684336" duration="5746000" />
+      <workItem from="1695824036379" duration="22360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
