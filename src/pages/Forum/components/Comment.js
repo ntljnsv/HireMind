@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import "../forum.css";
 import {UserAuth} from "../../../context/Auth";
 import {Card} from "react-bootstrap";
-import {doc, getDoc, onSnapshot} from "firebase/firestore";
+import {doc, getDoc} from "firebase/firestore";
 import {db} from "../../../config/auth/FirebaseConfig";
 import {Link} from "react-router-dom";
 

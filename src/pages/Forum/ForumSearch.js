@@ -2,8 +2,7 @@ import React, {useEffect, useState} from "react";
 import "./forum.css";
 import {TopicForm} from "./components/TopicForm";
 import {db} from "../../config/auth/FirebaseConfig";
-import {collection, getDocs} from "firebase/firestore";
-import {Ad} from "../../components/ad/Ad";
+import {collection, getDocs, onSnapshot, query, where} from "firebase/firestore";
 import {TopicCard} from "./components/TopicCard";
 
 
@@ -30,7 +29,9 @@ export const ForumSearch = () =>{
 
     useEffect(()=>{
        const getTopics = async () =>{
-           const querySnapshot = await getDocs(collection(db, "forumTopics")).catch((err)=>console.log(err));
+           console.log("another call lol")
+           const topicRef = collection(db, "forumTopics")
+           const querySnapshot = await getDocs(topicRef).catch((err)=>console.log(err));
            const newTopics = [];
            querySnapshot.forEach((doc) => {
                newTopics.push(doc.data());
@@ -38,7 +39,7 @@ export const ForumSearch = () =>{
            setTopics(newTopics)
        }
        getTopics()
-    },[])
+    },[formVisibility])
 
     const handleSearch = (e) =>{
         e.preventDefault()

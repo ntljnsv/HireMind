@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152e9b3d-22b2-4d84-a712-19c87368b609" name="Changes" comment="" />
+    <list default="true" id="152e9b3d-22b2-4d84-a712-19c87368b609" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ad/Ad.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ad/Ad.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ad/ad.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ad/ad.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ad/components/AppliedUsers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ad/components/AppliedUsers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Ads/Ads.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ads/Ads.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Ads/components/NewAdPopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Ads/components/NewAdPopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Forum/ForumSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Forum/ForumSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Forum/components/Comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Forum/components/Comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/profile/userProfile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile/userProfile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/search/components/Tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/search/components/Tags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/signup/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/signup/Signup.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +31,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2SimXB0hrUFu7jrHYthrSkuS7Bt" />
   <component name="ProjectViewState">
@@ -104,6 +121,7 @@
       <workItem from="1695590767231" duration="3405000" />
       <workItem from="1695775684336" duration="5746000" />
       <workItem from="1695824036379" duration="22360000" />
+      <workItem from="1696444891407" duration="5919000" />
     </task>
     <servers />
   </component>

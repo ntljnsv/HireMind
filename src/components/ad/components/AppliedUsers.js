@@ -42,7 +42,6 @@ export const AppliedUsers = ({users, changeVisibility}) =>{
                 <button className="btn exitButton" onClick={changeVisibility}>x</button>
                 {!appliedUsers.length && <div className="noApplicants">No applicants yet...</div>}
                 {appliedUsers && appliedUsers.map((user, index) =>{
-                    console.log(appliedUsers)
                     return(
                         <div className="applicantContainer" key={index}>
                             <div className="applicantPictureContainer">

@@ -92,7 +92,7 @@ export const NewAdPopup = ({changeVisibility}) =>{
                     </FormGroup>
                     <FormGroup>
                         <Form.Label>Location: </Form.Label>
-                        <Form.Control type="text" requred className="inputAd" onChange={(e)=>setLocation(e.target.value)}/>
+                        <Form.Control type="text" required className="inputAd" onChange={(e)=>setLocation(e.target.value)}/>
                     </FormGroup>
                     <FormGroup>
                         <Form.Label>Experience (years): </Form.Label>

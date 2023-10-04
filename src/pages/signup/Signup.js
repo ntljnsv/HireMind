@@ -8,7 +8,7 @@ export const Signup = () =>{
 
     useEffect(()=>{
         document.title = "Sign up"
-    })
+    },[])
 
     return(
         <Container className="signUpContainer">

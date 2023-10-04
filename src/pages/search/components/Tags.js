@@ -2,8 +2,6 @@ import React, {useState} from "react";
 import {ButtonGroup, ToggleButton} from "react-bootstrap";
 
 
-
-
 export const Tags = ({searchCallback}) =>{
     const [visibility, setVisibility] = useState(false)
     const [hideTags, setHideTags] = useState("+")

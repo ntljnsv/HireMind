@@ -20,6 +20,7 @@ export const Ad = ({adData, typeUser, applicationsPage}) =>{
         yrsExp: adData.yrsExp,
         location: adData.location,
         tags: adData.tags,
+        date: adData.date
     }
 
     const [userVisibility, setUserVisibility] = useState(false)
@@ -89,13 +90,14 @@ export const Ad = ({adData, typeUser, applicationsPage}) =>{
                         <div className="companyPhotoContainer">
                             <img src={photo} alt="Profile picture" className="companyPhoto"/>
                         </div>
-                        <h5>{name}</h5>
+                        <h5 className="adData">{name}</h5>
                     </div>
                     <div className="adInfo">
-                        <h1><span>{ad.title}</span></h1>
+                        <h1 className="adData"><span>{ad.title}</span></h1>
                         <h5>Salary: <span className="adData">${ad.salary}/mth</span></h5>
                         <h5>Experience: <span className="adData">{ad.yrsExp} years</span></h5>
                         <h5>Location: <span className="location adData">{ad.location}</span></h5>
+                        <div className="adDate">{ad.date}</div>
                         <hr/>
                         <div className="adTags">
                             {ad.tags && ad.tags.map((tags, index) =>{

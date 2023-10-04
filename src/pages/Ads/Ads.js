@@ -32,7 +32,7 @@ export const Ads = () =>{
                 }
                 if(change.type === "removed"){
                     setAds((prevState) =>
-                        prevState.filter((ad) => ad.id !== change.doc.data().id)
+                        prevState.filter((ad) => (ad.company+"-"+ad.title) !== (change.doc.data().company+"-"+change.doc.data().title))
                     );
                 }
             });
