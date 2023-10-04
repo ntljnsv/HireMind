@@ -24,38 +24,40 @@ function App() {
     const {user} = UserAuth()
     const [role, setRole] = useState()
 
-   useEffect(()=>{
-       if(user){
-           const docSnap = getDoc(doc(db, "allUsers", user.uid)).then(docSnap=> {
-               setRole(docSnap.get("role"))
-           }).catch((err)=>console.log(err))
-       }
-   }, [user])
+    useEffect(() => {
+        if (user) {
+            const docSnap = getDoc(doc(db, "allUsers", user.uid)).then(docSnap => {
+                setRole(docSnap.get("role"))
+            }).catch((err) => console.log(err))
+        }
+    }, [user])
 
-  return (
-    <div className="App">
-        <AuthProvider>
-            <Router>
-                {user && <NavBar typeUser={role}/>}
-                <Outlet/>
-                <Routes>
-                    <Route path="*" element={<InvalidURL/>}/>
-                    <Route path="/pickUser" element={<SignupChoice/>}/>
-                    <Route path="/signup/:typeUser" element={<Signup/>}/>
-                    <Route path="/login" element={<Login/>}/>
-                    <Route path="/search" element={<ProtectedRoute><Search/></ProtectedRoute>}/>
-                    <Route path="/forum" element={<ProtectedRoute><ForumSearch/></ProtectedRoute>}/>
-                    <Route path="/forum/:topicId" element={<ProtectedRoute><Topic/></ProtectedRoute>}/>
-                    <Route path="/user-profile/:userId" element={<ProtectedRoute><UserProfile/></ProtectedRoute>}></Route>
-                    <Route path="/company-profile/:userId" element={<ProtectedRoute><CompanyProfile/></ProtectedRoute>}></Route>
-                    <Route path="/ad/:adId" element={<ProtectedRoute><AdPage/></ProtectedRoute>}></Route>
-                    <Route path="/applications" element={<ProtectedRoute><Applications/></ProtectedRoute>}></Route>
-                    <Route path="/ads" element={<ProtectedRoute><Ads/></ProtectedRoute>}></Route>
-                </Routes>
-            </Router>
-        </AuthProvider>
-    </div>
-  );
+    return (
+        <div className="App">
+            <AuthProvider>
+                <Router>
+                    {user && <NavBar typeUser={role}/>}
+                    <Outlet/>
+                    <Routes>
+                        <Route path="*" element={<InvalidURL/>}/>
+                        <Route path="/pickUser" element={<SignupChoice/>}/>
+                        <Route path="/signup/:typeUser" element={<Signup/>}/>
+                        <Route path="/login" element={<Login/>}/>
+                        <Route path="/search" element={<ProtectedRoute><Search/></ProtectedRoute>}/>
+                        <Route path="/forum" element={<ProtectedRoute><ForumSearch/></ProtectedRoute>}/>
+                        <Route path="/forum/:topicId" element={<ProtectedRoute><Topic/></ProtectedRoute>}/>
+                        <Route path="/user-profile/:userId"
+                               element={<ProtectedRoute><UserProfile/></ProtectedRoute>}></Route>
+                        <Route path="/company-profile/:userId"
+                               element={<ProtectedRoute><CompanyProfile/></ProtectedRoute>}></Route>
+                        <Route path="/ad/:adId" element={<ProtectedRoute><AdPage/></ProtectedRoute>}></Route>
+                        <Route path="/applications" element={<ProtectedRoute><Applications/></ProtectedRoute>}></Route>
+                        <Route path="/ads" element={<ProtectedRoute><Ads/></ProtectedRoute>}></Route>
+                    </Routes>
+                </Router>
+            </AuthProvider>
+        </div>
+    );
 }
 
 export default App;
