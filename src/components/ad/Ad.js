@@ -17,7 +17,7 @@ export const Ad = ({adData, typeUser, applicationsPage}) =>{
         company: adData.company,
         title: adData.title,
         salary: adData.salary,
-        yrsExp: adData.yrsExp,
+        yrsExp: adData.yrsExperience,
         location: adData.location,
         tags: adData.tags,
         date: adData.date

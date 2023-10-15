@@ -47,7 +47,7 @@ export const CompanyProfile = () =>{
                     <Tabs defaultActiveKey="about"
                           transition={false}>
                         <Tab eventKey="about" title="About" className="addInfo tab">
-                                <AddInfo data="bio" typeUser="company" id={userId}/>
+                                <AddInfo data="history" typeUser="company" id={userId}/>
                                 <AddInfo data="goals" typeUser="company" id={userId}/>
                         </Tab>
                         {userId !== user.uid &&

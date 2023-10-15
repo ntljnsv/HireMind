@@ -44,6 +44,10 @@ export const InfoInputForm = ({data, typeUser, changeVisibility}) =>{
                     await setDoc(docRef, {
                         education: info
                     }, {merge: true}).then(changeVisibility()).catch(()=>setError("Unable to update education"))
+                } else if(data === "history"){
+                    await setDoc(docRef, {
+                        history: info
+                    }, {merge: true}).then(changeVisibility()).catch(()=>setError("Unable to update history"))
                 }
             }
         }

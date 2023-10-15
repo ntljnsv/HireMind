@@ -38,6 +38,9 @@ export const AddInfo = ({data, typeUser, id}) =>{
                     case "education":
                         setInfo(doc.get("education"))
                         break;
+                    case "history":
+                        setInfo(doc.get("history"))
+                        break;
                 }
             })
             return () =>{
