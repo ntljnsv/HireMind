@@ -14,3 +14,23 @@
     text-align: center;
     margin-top: 20px;
 }
+.sortButton{
+    display: flex;
+    border: none!important;
+    font-size: 15px;
+}
+.sort{
+    font-size: 26px;
+    margin-right: 6px;
+}
+.sortButton:active .sort{
+    color: #fc5603!important;
+}
+.sortButton:active{
+    border: none!important;
+}
+.sortButtonContainer{
+    display: flex;
+    justify-content: right;
+    margin-right: 18%;
+}
